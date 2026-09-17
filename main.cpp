@@ -421,6 +421,13 @@ case 3: {
         "ON spese.id_categoria = categorie.id_categoria "
         "ORDER BY spese.data_spesa"
     );
+
+if (PQresultStatus(risultato) != PGRES_TUPLES_OK) {
+    cout << "Errore durante la generazione del report." << endl;
+    PQclear(risultato);
+    break;
+}
+
 cout << "\nData - Categoria - Importo - Descrizione" << endl;
 cout << "-----------------------------------------" << endl;
 

@@ -30,6 +30,7 @@ Applicazione console per la gestione delle spese personali, sviluppata in C++ co
 - Libreria libpq per la connessione tra C++ e PostgreSQL.
 - pkg-config per individuare correttamente librerie e file header durante la compilazione.
 - Ambiente Linux/WSL con Ubuntu.
+- Librerie standard C++ utilizzate: iostream, string, limits e cctype.
 
 ## Compilazione
 

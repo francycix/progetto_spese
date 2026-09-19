@@ -466,6 +466,8 @@ int main() {
 
     cout << "Connessione al database riuscita!" << endl;
 
+    cout << "Benvenuto nel Sistema di Gestione delle Spese Personali!" << endl;
+
 int scelta;
 
 do {

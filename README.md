@@ -23,6 +23,14 @@ Applicazione console per la gestione delle spese personali, sviluppata in C++ co
 - `main.cpp` — contiene il programma C++.
 - `database.sql` — contiene la creazione delle tabelle, i dati di esempio e le query dei report.
 
+## Requisiti per l'esecuzione
+
+- Compilatore C++ compatibile con C++ standard, ad esempio g++.
+- PostgreSQL.
+- Libreria libpq per la connessione tra C++ e PostgreSQL.
+- pkg-config per individuare correttamente librerie e file header durante la compilazione.
+- Ambiente Linux/WSL con Ubuntu.
+
 ## Compilazione
 
 Per compilare il programma:
